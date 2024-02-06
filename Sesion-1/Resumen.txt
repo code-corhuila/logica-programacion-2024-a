@@ -1,0 +1,45 @@
+Realizar el promedio de las tres notas de Lógica Progrmación
+
+Trabajo 1: 3.4
+Trabajo 2: 4.6
+Trabajo 3: 3.1
+
+=> Variables
+n1 = 3.4
+n2 = 4.6
+n3 = 3.1
+suma = 0
+promedio = 0
+porcentaje = 0 
+
+//Salida
+(n1+n2+n3)/3
+
+//Salida
+suma = n1+n2+n3
+promedio = suma / 3
+
+
+//Salida
+suma = suma+n1
+suma = suma+n2
+suma = suma+n3
+promedio = suma / 3
+
+porcentaje = (n1*0.33333333333333)+(n2*0.33333333333333)+(n3*0.33333333333333)
+
+3.6999999999999997
+3.699999999999963
+
+
+///////////////
+Promedio de las edades de los estudiantes de Lógica Progrmación.
+
+(16+19+21+17+16+19)/23
+
+1+1+1+1+1+1+1+1
+
+
+Infografía 
+Pseudocódigo
+Diagrama de Flujo
