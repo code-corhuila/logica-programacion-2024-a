@@ -89,3 +89,5 @@
 2. Diagrama de flujo:
 	
     * Responde a la misma necesidad de un Pseudocódigo, solo es este es representado de manera gráfica. 
+
+![Símbolos para Diagramas de Flujo](img/SimbolosDiagramas.jpg)
