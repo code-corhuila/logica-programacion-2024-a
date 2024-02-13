@@ -52,7 +52,7 @@
 
 ## Ejemplo
 
-#### Ej2 Obtener el promedio de tres notas y luego mostrar el resultados. 
+#### Ej1 Obtener el promedio de tres notas y luego mostrar el resultados. 
 
 ```
     INICIO
@@ -91,3 +91,8 @@
     * Responde a la misma necesidad de un Pseudocódigo, solo es este es representado de manera gráfica. 
 
 ![Símbolos para Diagramas de Flujo](img/SimbolosDiagramas.jpg)
+
+## Ejemplo
+
+#### Ej1 Obtener el promedio de tres notas y luego mostrar el resultados. 
+![Diagrama de flujo ](img/Ejemplo1.png)
