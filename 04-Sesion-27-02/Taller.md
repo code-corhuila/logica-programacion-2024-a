@@ -18,7 +18,7 @@ HALLAR EL VOLUMEN DE
 2. Una esfera.
 -	Volumen esfera = 4 / 3 * pi * radio * radio * radio.
 
-Concersión
+Conversión
 1. Grados Celsius a grados Fahrenheit.
 2. Grados Celsius a grados kelvin.
 3. Grados Fahrenheit a grados Celsius.
