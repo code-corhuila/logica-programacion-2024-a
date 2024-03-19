@@ -52,11 +52,140 @@ Resolver ejercicio
             
             totalPagar <- cantidad * precioUnitario
             ESCRIBIR "El valor total a pagar es de " ,totalPagar
-            
+
         SINO 
             ESCRIBA "La cantidad no debe ser menor o igual a cero."
         FIN SI        
     FIN
 ```
 
+###### Tener en cuenta
+
+```
+    SI () ENTONCES
+
+    SINO 
+
+    FIN SI
+```
+
+```
+    SI () ENTONCES
+
+    FIN SI
+```
+
+```
+    SI () ENTONCES
+        SI () ENTONCES
+
+        SINO 
+            SI () ENTONCES
+
+            FIN SI
+        FIN SI
+    SINO 
+
+    FIN SI
+```
+
+```java
+    if(1 == 1){
+        if(1 == 1){
+            if(1 == 1){
+                if(1 == 1){
+                }
+            }
+        }
+    }else{
+
+    }
+```
+
+```java
+    if(1 == 1){
+        if(1 == 1){
+            if(1 == 1){
+                if(1 == 1){
+            
+                } 
+            }   
+        }   
+    }
+```
+
+##### Ejercicio: Verificar si una persona es mayor o menor de edad. Una persona solo puede tener de edad entre 1-120.
+
+```
+    INICIO 
+        //Definir variables
+        DEFINIR edad COMO ENTERO
+
+        //Capturar la edad de la persona
+        ESCRIBIR "Digite la edad de la persona: "
+        LEER edad
+
+        //Proceso
+        SI (edad >= 1 y edad <=120) ENTONCES
+            //Verdadero
+            SI (edad< 18) ENTONCES
+                ESCRIBA "Menor de edad"
+            SINO 
+                ESCRIBA "Mayor de edad."
+            FIN SI
+        SINO 
+            //Falso
+            ESCRIBA "Dato no permitido."
+        FIN SI
+
+    FIN 
+```
+
+```
+    INICIO 
+        //Definir variables
+        DEFINIR edad COMO ENTERO
+
+        //Capturar la edad de la persona
+        ESCRIBIR "Digite la edad de la persona: "
+        LEER edad
+
+        //Proceso
+        SI (edad <= 0 O edad > 120) ENTONCES
+            //Verdadero
+            ESCRIBA "Dato no permitido."
+        SINO 
+            //Falso
+            SI (edad >= 18) ENTONCES
+                ESCRIBA "Mayor de edad."
+            SINO
+                ESCRIBA "Menor de edad"                 
+            FIN SI            
+        FIN SI
+
+    FIN 
+```
+
+##### Ejercicio: Verificar si un estudiante de lógica aprobó o desaprobó el corte. Para aprobar se requiere de 3.0 o más, las notas permitidas son de 0.0 a 5.0
+
+```
+    INICIO 
+        //Declarar variables
+        DEFINIR nota COMO REAL
+
+        //Capturar los datos
+        ESCRIBA "Digite la nota obtenida del corte: "
+        LEER nota
+
+        SI (nota >= 0.0 Y nota <= 5.0) ENTONCES
+            SI (nota>=3) ENTONCES
+                ESCRIBIR "Aprobó"
+            SINO 
+                ESCRIBIR "Desaprobó"
+            FIN SI
+        SINO 
+            ESCRIBIR "Dato no valido"
+        FIN SI
+    FIN
+```
 
