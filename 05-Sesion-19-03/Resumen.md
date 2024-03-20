@@ -189,3 +189,10 @@ Resolver ejercicio
     FIN
 ```
 
+Se requiere conocer el valor a pagar, por el almuerzo. Si el almuerzo cuesta más de 10.000, se aplica un 5% de descuento, sino, un 2% de descuento.
+
+d =  valorAlmuerzo * 0.05
+
+
+
+
