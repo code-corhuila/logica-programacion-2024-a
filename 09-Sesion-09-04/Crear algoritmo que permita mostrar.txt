@@ -1,0 +1,9 @@
+Crear algoritmo que permita mostrar los números pares definidos en un rango por el usuario. 
+
+Siempre se inicia desde 1 y finaliza en el número que establezca el usuario. 
+
+Nota: Usar ciclo
+
+PARA i<-1 HASTA numero PARA
+
+FIN PARA
